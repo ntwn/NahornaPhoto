@@ -1,0 +1,19 @@
+h3 {
+    padding-top: 15vh;
+}
+
+pre {
+    font-size: 1em;
+}
+
+pre span {
+    font-size: 1.5em;
+}
+pre {
+    font-family: 'Euclid Circular A', serif;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-kerning: none;
+    /*margin: 0;*/
+}

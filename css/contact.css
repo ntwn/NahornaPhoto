@@ -1,0 +1,35 @@
+#contact .card a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+#contact .card:hover i,
+#contact .card:hover h4,
+#contact .card:hover a,
+#contact .card:hover address,
+#contact .card:hover p {
+    color: var(--hover-color);
+    cursor: default;
+}
+
+#contact .container {
+    /*padding-top: 15vh;*/
+    cursor: default;
+}
+#contact .container .row {
+    justify-content: center;
+}
+
+h3 {
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+    font-size: xxx-large;
+}
+
+.kir-font {
+    font-family: 'Euclid Circular A', serif;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-kerning: none;
+    /*margin: 0;*/
+}

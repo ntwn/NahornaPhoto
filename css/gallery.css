@@ -1,0 +1,46 @@
+h3 {
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+    font-size: xxx-large;
+}
+.container {
+    margin: 0;
+}
+.gallery .row {
+    width: 80vw;
+}
+
+.gallery .col-md-4 {
+    padding: 0;
+}
+
+img {
+    object-fit: cover;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+
+img:hover {
+     transform: scale(1.05);
+}
+.rr {
+    width: 1600px;
+    height: 1600px;
+}
+.img-fluid{
+    min-width: 100%;
+    min-height: 100%;
+}
+.modal-body {
+    padding: 0;
+}
+
+.img-container {
+    max-width: 19vw;
+    min-width: 10vw;
+    max-height: 33vh;
+    min-height: 10vh;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 5px auto;
+}

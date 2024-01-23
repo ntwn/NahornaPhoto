@@ -1,0 +1,15 @@
+pre {
+    font-size: 1em;
+}
+
+pre span {
+    font-size: 3em;
+}
+pre {
+    font-family: 'Euclid Circular A', serif;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-kerning: none;
+    /*margin: 0;*/
+}

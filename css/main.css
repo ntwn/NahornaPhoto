@@ -1,0 +1,76 @@
+/*Змінні значення для всього сайту*/
+:root{
+    /*--hover-color: #7cd3c3;*/
+    --hover-color: grey;
+    --main-color: black;
+}
+
+body {
+    /*font-family: 'Euclid Circular A', serif;*/
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Delmon Delicate', sans-serif;
+    letter-spacing: 1px;
+    font-kerning: none;
+    margin: 0;
+}
+
+h3 {
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+    font-size: xxx-large;
+}
+.text-right {
+    padding-right: 5vw;
+}
+header .logo {
+    position: relative;
+    text-align: center;
+    /*justify-content: center;*/
+    color: black;
+    font-size: 14px;
+    font-family: 'Delmon Delicate', sans-serif;
+    padding-top: 5em;
+    padding-bottom: 10em;
+    width: 16.66666vw;
+    z-index: 999;
+}
+
+.red {
+    background: red;
+}
+
+div.logo > p > a {
+    color: var(--main-color);
+    text-decoration: none;
+    cursor: default;
+}
+
+div.logo > p {
+    padding-top: 0.1em;
+}
+div.logo > p:first-child {
+    font-size: 24px;
+}
+.col-md-2,
+.col-md-10 {
+    padding-right: 0;
+}
+
+.col-md-10 {
+    overflow: hidden;
+}
+
+.col-xl-12 {}
+
+@font-face {
+    font-family: 'Delmon Delicate';
+    src: local(Delmon Delicate),
+    url('../fonts/Delmon-Delicate.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.side-menu-area {
+    z-index: 1000;
+}
